@@ -1,0 +1,228 @@
+/*
+Colours
+#E0D5D2 (Tan)
+#7A8C7C (Light Green)
+#47574D (Dark Green)
+#5D5352 (Light Brown)
+#3C3633 (Dark Brown)
+#E9E2E8 (BG)
+
+
+Fonts
+font-family: 'ryman_ecoregular';
+Ryman Eco
+Gothic:  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'ryman_ecoregular', serif;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+p, li, a, label, textarea, input, button, footer {
+	font-family: Garamond, Georgia, Palatino, Times, Times New Roman, serif
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+	color: #000;
+}
+
+a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+.container {
+	padding-top: 1em;
+}
+
+.row {
+	padding: 0;
+	margin: 0;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+.img-thumbnail {
+	width: 100%;
+	height: auto;
+	max-width: 150px;
+}
+
+
+/* HEADER */
+header {
+	background-color: #7A8C7C;
+}
+
+.logo {
+	width: 100%;
+    max-width: 110px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.logoname {
+	text-align: center;
+	padding-top: 10px;
+	margin: 0;
+}
+
+.company-name {
+	color: black;
+}
+
+.company-name:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.fa-shopping-cart {
+	font-size: 2em;
+	padding-left: 20px;
+	color: black;
+	text-align: center;
+}
+
+.navbar ul{
+	font-size: 1.25em;
+	margin: 0 auto;
+}
+
+.dropdown-menu {
+	background-color: #7A8C7C;
+}
+
+.dropdown-item {
+	font-size: 1.25em;
+	color: rgba(0,0,0,.5);
+}
+
+.dropdown-item:hover {
+	color: black;
+	background: none;
+}
+
+.navbar-toggler {
+	margin: 0 auto;
+	background: none;
+}
+
+/* HOME PAGE */
+.home-wrapper {
+	margin-top: 10em;
+}
+
+.wedo {
+	background-color: #E0D5D2;
+	padding: 1em;
+	margin: 0;
+}
+
+/* ABOUT US */
+
+.about-wrapper {
+	margin-top: 10em;
+	padding: 2em;
+}
+
+.dennis, .sam{
+	background-color: #fff;
+	padding: 1em;
+}
+
+.dennis img {
+	background-color: #fff;
+}
+
+.sam img {
+	background-color: #fff;
+}
+
+.name {
+	text-align: center;
+}
+
+.about-bio {
+	background-color: #E0D5D2;
+	padding: 1em;
+	margin: 0;
+}
+
+/* CONTACT US */
+.contact-wrapper {
+	padding: 2em;
+}
+
+.contact-wrapper {
+	margin-top: 10em;
+}
+
+.contact-form {
+	background-color: #E0D5D2;
+	padding: 1em;
+	margin: 0;
+}
+
+
+iframe {
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	filter: grayscale(100%);
+}
+
+/* CREATE */
+.create-wrapper {
+	margin-top: 10em;
+	padding: 2em;
+}
+
+.prices {
+	background-color: #E0D5D2;
+	padding: 1em;
+	margin: 0;
+}
+
+/* DESIGN */
+.design-wrapper {
+	margin-top: 10em;
+	padding: 2em;
+}
+
+.design-wrapper .img-thumbnail {
+	max-width: 500px;
+}
+
+/* BUILD */
+.build-wrapper {
+	margin-top: 10em;
+	padding: 2em;
+}
+
+.build-wrapper .img-thumbnail {
+	max-width: 200px;
+}
+
+
+/* FOOTER */
+footer {
+	padding: 1em;
+}
+
+footer i {
+	font-size: 30px;
+}
+
+footer img {
+	width: 50px;
+}
